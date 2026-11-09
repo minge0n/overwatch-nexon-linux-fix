@@ -23,3 +23,13 @@ installations.
 DigiCert is a trademark of DigiCert, Inc. This project is not affiliated with
 or endorsed by DigiCert, Inc., Blizzard Entertainment, Inc., NEXON Korea
 Corporation, or Valve Corporation.
+
+The macOS port also distributes these public DigiCert certificates in macos/certs/:
+
+  cross-g4.der: the cross-signed certificate described above.
+  assured-id-root.der: DigiCert Assured ID Root CA
+    SHA-1: 0563B8630D62D75ABBC8AB1E4BDFB5A899B24D43
+    SHA-256: 3E9099B5015E8F486C00BCEA9D111EE721FABA355A89BCF1DF69561E3DC6325C
+
+These certificates are copied verbatim from the upstream script, are not
+covered by the MIT license, and remain public DigiCert material.

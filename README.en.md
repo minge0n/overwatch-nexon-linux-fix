@@ -1,5 +1,7 @@
 # Overwatch (Nexon KR) on Linux — fixing Blizzard error `0xE01300B0`
 
+> **Experimental macOS port:** This fork adds process-local macOS certificate filtering without editing Keychains. See [macOS instructions (Korean)](docs/macos.md) and [validation scope](docs/macos-validation.md). Actual Wine/gameplay compatibility is not verified. The instructions below remain Linux-only.
+
 Since Overwatch's Korean service moved to **Nexon** on 2026-08-12, the game fails to
 launch under **Proton/Wine on Linux** with Blizzard error **`0xE01300B0`**.
 This repository contains a working fix and a full root-cause analysis.
